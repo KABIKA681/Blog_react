@@ -1,0 +1,91 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(116, 180, 236, 0.797), hsla(0, 20%, 5%, 0.441)), url("https://pbs.twimg.com/media/EzV-6QHVgAQ8QDn?format=jpg&name=medium");
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+  
+}
+.loginLogo{
+    position: absolute;
+    float: left;
+    top: 60px;
+    width: 30%;
+    object-fit: cover;
+    left: 30px;
+    cursor: pointer;
+    
+}
+.loginTitle{
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(33, 38, 91);
+    
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(33, 38, 91);
+
+    
+}
+.loginForm > label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    background-color: rgb(219, 218, 218);
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(101, 142, 72);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px 3px black;
+    
+}
+.loginButton:hover{
+    background-color: rgb(33, 38, 91);
+
+}
+.loginRegisterSpan{
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    color: rgb(33, 38, 91);
+    padding: 10px;
+    width: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    background-color: rgb(101, 142, 72);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    width: 140px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 0px 7px 3px black;
+}
+.loginRegisterButton:hover{
+    background-color: rgb(33, 38, 91);;
+}

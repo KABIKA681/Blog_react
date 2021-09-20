@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../kab-react-genie-enherbe"
+		},
+		{
+			"path": "../../../../../kab-carmarket"
+		},
+		{
+			"path": "../../../../../../Documents/Blog/Client"
+		},
+		{
+			"path": "../../../../../../Documents/Blog/Server"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
