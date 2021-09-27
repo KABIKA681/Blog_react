@@ -33,7 +33,7 @@ export default function SinglePost() {
         data: { username: user.username },
       });
       window.location.replace("/");
-    } catch (err) {}
+    } catch (error) {}
   };
 
   const handleUpdate = async () => {
@@ -45,7 +45,7 @@ export default function SinglePost() {
       });
       window.location.reload();
 
-    } catch (err) { }
+    } catch (error) { }
   };
     return (
     <div className="singlePost">
