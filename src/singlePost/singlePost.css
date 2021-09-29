@@ -19,17 +19,17 @@
     font-size: 30px;
     padding: 20px;
 }
-.singlepostTitleInput{
-    margin: 12px;
+.singleOne{
+    margin: 10px;
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     border: none;
     color: gray;
     border-bottom: 1px solid lightgray;
 
 }
-.singlepostTitleInput:focus{
+.singleOne:focus{
     outline: none;
 }
 .singlePostEdit{

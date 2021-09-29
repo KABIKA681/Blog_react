@@ -57,11 +57,11 @@ export default function SinglePost() {
           <input
             type="text"
             value={title}
-            className="singlePostTitleInput"
+            className="singleOne"
             autoFocus
             onChange={(e) => setTitle(e.target.value)}
           />
-        ) : (
+          ) : (
           <h1 className="singlePostTitle">
             {title}
             {post.username === user?.username && (
