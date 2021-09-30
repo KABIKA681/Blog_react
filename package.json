@@ -43,8 +43,7 @@
   "main": "index.js",
   "devDependencies": {},
   "repository": {
-    "type": "git",
-    "url":"git+https://github.com/KABIKA681/front-end-blog-react.git"
+    "type": "git"
   },
   "author": "Jaman Dedy, Gilles Kagarama <jeandedieuam@gmail.com>",
   "license": "ISC"
