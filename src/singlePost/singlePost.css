@@ -64,13 +64,13 @@
     font-size: 32px;
     font-weight: 600;
 }
-.singlePostDescriptionInput{
+.singleOneInput{
     border: none;
     color: #666;
     font-size: 18px;
     line-height: 25px;
 }
-.singlePostDescriptionInput:focus{
+.singleOneInput:focus{
     outline: none;
 }
 .singlePostButton{

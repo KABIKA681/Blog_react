@@ -39,12 +39,11 @@ export default function SinglePost() {
   const handleUpdate = async () => {
     try {
       await axios.put(`/posts/${post._id}`, {
-        data: { username: user.username, title, desc},
-
-          
+        username: user.username,
+        title,
+        desc, 
       });
-      window.location.reload();
-
+      setUpdateMode(false)
     } catch (error) { }
   };
     return (
@@ -91,7 +90,7 @@ export default function SinglePost() {
         </div>
         {updateMode ? (
           <textarea
-            className="singlePostDescriptionInput"
+            className="singleOneInput"
             value={desc}
             onChange={(e) => setDesc(e.target.value)}
           />
