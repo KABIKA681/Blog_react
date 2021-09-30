@@ -42,7 +42,7 @@ export default function Settings() {
                     <span className="settingsUpdateTitle">Update Your Accout</span>
                     <span className="settingsDeleteTitle">Delete Accout</span>
                 </div>
-                <form className="settingsForm">
+                <form className="settingsForm" onSubmit={handleSubmit}>
                 <label>Profile Picture</label>
                 <div className="settingsProfilePicture">
                     <img src={user.profilePic}
@@ -69,7 +69,7 @@ export default function Settings() {
                     onChange={e=> setPassword(e.target.value)}
 
                     />
-                    <button className="settingsSubmit">Update</button>
+                    <button className="settingsSubmit" type="submit">Update</button>
                 </form>
             </div>
                 <Sidebar/>
