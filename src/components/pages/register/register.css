@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(rgba(116, 180, 236, 0.797), hsla(0, 20%, 5%, 0.441)), url("https://pbs.twimg.com/media/EzV-6QHVgAQ8QDn?format=jpg&name=medium");
+    /* background: linear-gradient(rgba(116, 180, 236, 0.797), hsla(0, 20%, 5%, 0.441)), url("https://pbs.twimg.com/media/EzV-6QHVgAQ8QDn?format=jpg&name=medium"); */
     background-size: cover;
     width: 100%;
     align-items: center;
