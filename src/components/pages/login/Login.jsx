@@ -25,6 +25,7 @@ export default function Login() {
 
   return (
     <div className="login">
+     <img className="loginLogo" src="https://logodix.com/logo/1702871.png" alt=""/>
       <span className="loginTitle">Login</span>
       <form className="loginForm" onSubmit={handleSubmit}>
         <label>Username</label>

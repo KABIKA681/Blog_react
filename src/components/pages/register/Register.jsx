@@ -54,7 +54,7 @@ export default function Register() {
                 />
                 <button className="loginButton" type="submit" >Register</button>
             </form>
-            
+            <span className="loginRegisterSpan">Already Registered?</span>
             <button className="loginRegisterButton">
             <Link className="link" to="/login">Login</Link>
 
